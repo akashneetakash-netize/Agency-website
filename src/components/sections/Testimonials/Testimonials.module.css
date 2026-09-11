@@ -1,0 +1,85 @@
+.testimonials {
+  padding: 80px 0 40px 0;
+  background: #F8FBFF;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 60px;
+}
+
+.awards {
+  margin-top: 60px;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 16px;
+  padding: 28px 36px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+}
+
+.award {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #64748B;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.award svg {
+  color: #2563EB;
+}
+
+.divider {
+  width: 1px;
+  height: 32px;
+  background: #E2E8F0;
+}
+
+.revealWrapper {
+  margin: 60px 0 20px 0;
+  padding: 40px;
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.15);
+}
+
+.revealText {
+  color: #F8FAFC !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-size: clamp(1.4rem, 3.2vw, 2.2rem) !important;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .revealWrapper {
+    padding: 24px 18px;
+    margin: 40px 0 10px 0;
+  }
+}

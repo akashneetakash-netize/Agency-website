@@ -1,0 +1,80 @@
+/* =============================================
+   SERVICES SECTION — Black + Orange Premium Theme
+   ============================================= */
+
+.services {
+  padding: 100px 0 80px;
+  background: #FFFFFF;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle glow accent */
+.services::before {
+  content: '';
+  position: absolute;
+  bottom: -200px;
+  left: -100px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(37, 99, 235, 0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Horizontal sliding viewport */
+.sliderViewport {
+  width: 100%;
+  overflow: hidden;
+  margin: 48px 0 56px;
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 3%,
+    black 97%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 3%,
+    black 97%,
+    transparent 100%
+  );
+  cursor: grab;
+}
+
+.sliderTrack {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+  will-change: transform;
+  padding: 12px 24px 24px;
+}
+
+.slide {
+  flex: 0 0 auto;
+  height: 100%;
+}
+
+@media (max-width: 640px) {
+  .services {
+    padding: 72px 0 60px;
+  }
+
+  .sliderViewport {
+    margin: 36px 0 40px;
+  }
+
+  .sliderTrack {
+    gap: 16px;
+    padding: 8px 16px 16px;
+  }
+}

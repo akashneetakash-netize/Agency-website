@@ -1,0 +1,49 @@
+:root {
+  /* Brand Palette — White & Blue Theme */
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F8FBFF;
+  --color-surface: #FFFFFF;
+  --color-surface-raised: #FFFFFF;
+  --color-card: #FFFFFF;
+
+  /* Accent Blues */
+  --color-accent-blue: #1E88E5;
+  --color-accent-blue-hover: #1565C0;
+  --color-accent-blue-light: #E3F2FD;
+  --color-accent-cyan: #0288D1;
+  --color-accent-purple: #1E88E5;
+
+  /* Text Colors — Black */
+  --color-text-main: #000000;
+  --color-text-secondary: #000000;
+  --color-text-muted: #424242;
+  --color-text-dim: #666666;
+
+  /* Borders & Dividers */
+  --border-light: #E3F2FD;
+  --border-medium: #BBDEFB;
+  --border-blue: rgba(30, 136, 229, 0.3);
+  --bg-glass-nav: rgba(255, 255, 255, 0.95);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(30, 136, 229, 0.08), 0 1px 2px rgba(30, 136, 229, 0.06);
+  --shadow-card: 0 4px 16px rgba(30, 136, 229, 0.12);
+  --shadow-card-hover: 0 12px 32px rgba(30, 136, 229, 0.18);
+  --glow-blue: 0 0 30px rgba(30, 136, 229, 0.25);
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* Process Brand Colors */
+  --process-glow: rgba(30, 136, 229, 0.3);
+  --accent: #1E88E5;
+  --text-primary: #1565C0;
+  --text-secondary: #424242;
+  --text-muted: #757575;
+}

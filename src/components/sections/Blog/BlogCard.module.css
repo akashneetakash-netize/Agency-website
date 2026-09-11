@@ -1,0 +1,86 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+}
+
+.imageWrapper {
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #EEF1F8, #DBEAFE);
+  margin-bottom: 4px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.card:hover .img {
+  transform: scale(1.05);
+}
+
+.metaRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.readTime {
+  font-size: 12px;
+  color: #475569;
+  font-weight: 600;
+}
+
+.title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #0F172A;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.summary {
+  font-size: 14px;
+  color: #334155;
+  line-height: 1.6;
+  font-weight: 500;
+  margin: 0;
+  flex: 1;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 14px;
+  border-top: 1px solid #E2E8F0;
+  margin-top: 6px;
+}
+
+.author {
+  font-size: 13px;
+  color: #475569;
+  font-weight: 600;
+}
+
+.readLink {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #2563EB;
+  text-decoration: none;
+  transition: gap 0.2s ease;
+}
+
+.readLink:hover {
+  color: #1d4ed8;
+  gap: 8px;
+}

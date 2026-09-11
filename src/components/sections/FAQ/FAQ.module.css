@@ -1,0 +1,18 @@
+.faq {
+  padding: 40px 0 100px 0;
+  background: #FFFFFF;
+}
+
+.container {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.accordionList,
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 56px;
+}

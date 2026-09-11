@@ -1,0 +1,18 @@
+.process {
+  padding: 120px 0;
+  background: #F8FBFF;
+  position: relative;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.stepsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+

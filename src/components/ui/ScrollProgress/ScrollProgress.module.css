@@ -1,0 +1,24 @@
+/* Full-width track sits at the very top of the viewport */
+.track {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  z-index: 99999;
+  background: rgba(37, 99, 235, 0.1); /* light orange track */
+}
+
+/* The animated fill bar */
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #60A5FA 0%, #2563EB 60%, #1D4ED8 100%);
+  transform-origin: left;
+  border-radius: 0 2px 2px 0;
+  box-shadow: 0 0 8px rgba(37, 99, 235, 0.5);
+}

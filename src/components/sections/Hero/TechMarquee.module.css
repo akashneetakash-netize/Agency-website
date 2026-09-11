@@ -1,0 +1,102 @@
+/* =============================================
+   TECH MARQUEE — Black + Orange Premium Theme
+   ============================================= */
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 36px 0;
+  background: #FFFFFF;
+  border-top: 1px solid #E2E8F0;
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.track {
+  display: flex;
+  gap: 14px;
+  width: max-content;
+  animation: marquee 40s linear infinite;
+  will-change: transform;
+}
+
+.trackReverse {
+  animation: marqueeReverse 45s linear infinite;
+}
+
+.track:hover,
+.trackReverse:hover {
+  animation-play-state: paused;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 18px 10px 14px;
+  background: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 9999px;
+  color: #000000;
+  font-family: 'Outfit', system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: default;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+  transition:
+    background 0.22s ease,
+    color 0.22s ease,
+    border-color 0.22s ease,
+    box-shadow 0.22s ease,
+    transform 0.22s ease;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.number {
+  font-size: 12px;
+  font-weight: 700;
+  color: #475569;
+  min-width: 20px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.name {
+  letter-spacing: -0.01em;
+}
+
+/* Orange hover style */
+.item:hover {
+  background: rgba(37, 99, 235, 0.12);
+  border-color: rgba(37, 99, 235, 0.4);
+  color: #000000;
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.2);
+  transform: translateY(-1px);
+}
+
+.item:hover .number {
+  color: #ea580c;
+}
+
+.item:hover .icon {
+  filter: brightness(1.25);
+}
+
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-33.333%); }
+}
+
+@keyframes marqueeReverse {
+  0%   { transform: translateX(-33.333%); }
+  100% { transform: translateX(0); }
+}

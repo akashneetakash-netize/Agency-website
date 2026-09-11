@@ -1,0 +1,58 @@
+.carouselWrapper {
+  position: relative;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.viewport {
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 0 36px 0;
+}
+
+.track {
+  display: flex;
+  gap: 24px;
+  will-change: transform;
+}
+
+/* Arrows */
+.arrowBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #0F172A;
+  transition: all 0.2s ease;
+}
+
+.arrowBtn:hover {
+  background: #2563EB;
+  border-color: #2563EB;
+  color: #FFFFFF;
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.25);
+}
+
+.arrowLeft {
+  left: -8px;
+}
+
+.arrowRight {
+  right: -8px;
+}
+
+@media (max-width: 768px) {
+  .arrowBtn {
+    display: none;
+  }
+}
