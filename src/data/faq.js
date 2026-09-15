@@ -11,7 +11,7 @@ export const faqs = [
   },
   {
     id: 'faq-3',
-    question: 'Can Cognify integrate with our existing legacy ERP / CRM systems?',
+    question: 'Can Eleviq integrate with our existing legacy ERP / CRM systems?',
     answer: 'Yes. Our cognitive modernization practice specializes in building custom API middleware that interfaces directly with SAP, Salesforce, Oracle, NetSuite, and legacy REST/SOAP endpoints without disrupting your ongoing business operations.'
   },
   {
@@ -21,7 +21,7 @@ export const faqs = [
   },
   {
     id: 'faq-5',
-    question: 'What is the cost structure for working with Cognify?',
+    question: 'What is the cost structure for working with Eleviq?',
     answer: 'We offer flexible engagement models tailored to enterprise goals: fixed-fee pilot builds, milestone-based turnkey project delivery, or dedicated monthly engineering retainers. Contact our solutions team for a customized proposal.'
   },
   {

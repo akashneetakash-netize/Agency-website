@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cognify.ai/sitemap.xml
+Sitemap: https://eleviq.ai/sitemap.xml

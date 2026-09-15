@@ -1,6 +1,6 @@
-# 🚀 Cognify — Premium Enterprise AI Agency Web Application
+# 🚀 Eleviq — Premium Enterprise AI Agency Web Application
 
-A production-grade, highly interactive single-page React 18 application for **Cognify**, an enterprise AI & automation agency.
+A production-grade, highly interactive single-page React 18 application for **Eleviq**, an enterprise AI & automation agency.
 
 Built with **React 18**, **Vite**, **Framer Motion**, **CSS Modules**, **Tailwind CSS**, **React Hook Form**, **Zod**, and **Lucide Icons**.
 
@@ -24,7 +24,7 @@ Built with **React 18**, **Vite**, **Framer Motion**, **CSS Modules**, **Tailwin
 ## 🛠️ Project Structure
 
 ```
-cognify-agency/
+eleviq-agency/
 ├── public/
 │   ├── favicon.svg
 │   └── robots.txt

@@ -26,7 +26,7 @@ export function Hero() {
             </h1>
 
             <p className={styles.description}>
-              Cognify builds cognitive AI agents, custom workflow
+              Eleviq builds cognitive AI agents, custom workflow
               automations, and backend platforms that eliminate repetitive
               operational work and unlock new business velocity.
             </p>
